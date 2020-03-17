@@ -2,6 +2,10 @@ spring:
   application:
     name: server-sentinel
   cloud:
+    sentinel:
+      transport:
+        client-ip: 10.168.1.193
+        dashboard: 10.168.1.10:18080
     nacos:
       discovery:
         server-addr: 10.168.1.10:8848
