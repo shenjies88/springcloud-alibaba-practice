@@ -1,0 +1,14 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.168.1.10:8848
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

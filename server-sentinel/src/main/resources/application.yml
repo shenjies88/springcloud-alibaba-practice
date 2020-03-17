@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    sentinel:
+      transport:
+        client-ip: 10.168.1.193
+        dashboard: 10.168.1.10:18080

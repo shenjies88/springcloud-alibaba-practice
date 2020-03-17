@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: nacos-config
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.168.1.10:8848
+      config:
+        server-addr: 10.168.1.10:8848
+        file-extension: yml
