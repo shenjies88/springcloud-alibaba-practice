@@ -25,7 +25,7 @@ public class MyZuulFilter extends ZuulFilter {
 
     @Override
     public Object run() throws ZuulException {
-        System.out.println("路由拦截");
+        System.out.println("拦截了");
         return null;
     }
 }
